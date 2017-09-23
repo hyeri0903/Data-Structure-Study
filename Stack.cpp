@@ -1,5 +1,5 @@
 //#include <iostream>
-//
+//Stack array
 //using namespace std;
 //
 //const int stackSize = 4;
