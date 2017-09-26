@@ -1,4 +1,4 @@
-//¿Œ¡¢∏ÆΩ∫∆Æ DFS & BFS
+//Linked List DFS & BFS
 #include <iostream>
 #define MAX 50
 using namespace std;
@@ -48,7 +48,7 @@ void BFS(int v)
 	q.rear = q.front = -1;
 
 	for (int i = 0; i < MAX; i++)
-		visited[i] = 0;          //false∑Œ √ ±‚»≠
+		visited[i] = 0;          //false¬∑√é √É√ä¬±√¢√à¬≠
 	enqueue(&q, v);
 	cout << v << " ";
 	visited[v] = 1;        //check true
